@@ -1,0 +1,12 @@
+.navbar {
+    height: 10vh;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-links {
+    justify-self: flex-end;
+}
