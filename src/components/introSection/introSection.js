@@ -1,16 +1,15 @@
 import { useState, useEffect, useRef } from 'react';
+import MyIntro from './intro';
 import './introSection.css'
 
 const IntroSection = () => {
-    const fullIntro = "This is Debojeet, a passionate software Developer with experience in Web and Mobile Development.";
 
     const [intro, setIntro] = useState('')
     const timer = useRef()
 
     const updateIntro = () => {
-        console.log("I am doing");
         setIntro(intro => {
-            if (intro.length < fullIntro.length) return intro + fullIntro[intro.length];
+            if (intro.length < MyIntro.length) return intro + MyIntro[intro.length];
             return intro;
         })
     }
@@ -23,7 +22,7 @@ const IntroSection = () => {
     }, []);
 
     useEffect(() => {
-        if (intro.length === fullIntro.length) clearInterval(timer.current)
+        if (intro.length === MyIntro.length) clearInterval(timer.current)
     }, [intro]);
 
     return (<div className="IntroSection">

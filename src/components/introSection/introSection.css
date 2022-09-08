@@ -1,6 +1,6 @@
 .IntroSection {
-    margin: 5vh 30vw 0 30vw;
+    margin: 5vh 10vw 0 10vw;
 }
 .Intro {
-   word-wrap: normal;
+    font-size: medium;
 }
