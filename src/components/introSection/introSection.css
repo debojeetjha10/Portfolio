@@ -1,7 +1,9 @@
 .IntroSection {
     margin: 5vh 10vw 0 10vw;
-    height: 20vh;
+    min-height: 20vh;
+    margin-bottom: 3vh;
 }
+
 .Intro {
     font-size: medium;
 }

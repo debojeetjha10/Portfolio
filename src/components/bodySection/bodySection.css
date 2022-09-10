@@ -1,0 +1,41 @@
+.section-chooser {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+
+}
+
+.section-chooser li button {
+    background-color: transparent;
+    border: none;
+}
+
+.body-section-button {
+    background: white;
+    background: linear-gradient(to left, white 50%, rgb(198, 198, 198) 50%) right;
+    background-size: 200%;
+    text-align: center;
+    padding: 1vw;
+    min-width: 25vw;
+    border-radius: 0.5vw;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.grey-background-transition {
+    background-position: left;
+    box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 5px 5px;
+}
+
+.body-section {
+    padding: 3vw;
+    height: 50vh;
+    width: 95vw;
+    border: 1px solid #000000;
+    margin: auto;
+    margin-top: 1px;
+    position: relative;
+    overflow: scroll;
+    border-radius: 1vw;
+}

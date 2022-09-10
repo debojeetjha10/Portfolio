@@ -1,0 +1,12 @@
+.Project-Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.Project-info {
+    word-break: break-word;
+    text-size-adjust: auto;
+}

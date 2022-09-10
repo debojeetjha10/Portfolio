@@ -1,25 +1,33 @@
+import MYPROJECTS from './data';
+import ProjectCard from '../projectCard/projectCard';
 import './Projects.css'
-function onClick() {
-    var project1ClassList = document.getElementsByClassName("Project1").item(0).classList;
-    var project2ClassList = document.getElementsByClassName("Project2").item(0).classList;
-    var project3ClassList = document.getElementsByClassName("Project3").item(0).classList;
+import { useState } from 'react';
+import React from 'react'
 
-    project3ClassList.remove("Project3");
-    project3ClassList.add("Project2");
-
-    project1ClassList.remove("Project1");
-    project1ClassList.add("Project3");
-
-    project2ClassList.remove("Project2");
-    project2ClassList.add("Project1");
+const getClassName = (idx, currMainIdx) => {
+    if (idx === currMainIdx) return "Project2";
+    if (currMainIdx === 0 && idx === MYPROJECTS.length - 1) return "Project1";
+    if (currMainIdx === MYPROJECTS.length - 1 && idx === 0) {
+        return "Project3";
+    }
+    if (idx === currMainIdx - 1) return "Project1";
+    if (idx === currMainIdx + 1) return "Project3";
+    return "";
 }
 
+
 const Projects = () => {
-    return <div className="Projects" onClick={onClick}>
-        <div className="Project1 Project-card"><p>P1</p></div>
-        <div className="Project2 Project-card"><p>p2</p></div>
-        <div className="Project3 Project-card"><p>p3</p></div>
-    </div>
+    const [projectIdx, setProjectIdx] = useState(0)
+    return <>
+        <button className="left-arrow" onClick={() => setProjectIdx((projectIdx) => (projectIdx === 0) ? MYPROJECTS.length - 1 : projectIdx - 1)}>&#8592;</button>
+        <button className='right-arrow' onClick={() => setProjectIdx((projectIdx) => (projectIdx === MYPROJECTS.length - 1) ? 0 : projectIdx + 1)}>&#8594;</button>
+
+        {
+            MYPROJECTS.map((projects, idx) => <div key={projects.heading} className={"Projects-div " + getClassName(idx, projectIdx)}>
+                <ProjectCard project={MYPROJECTS[idx]} />
+            </div>)
+        }
+    </>
 
 }
 

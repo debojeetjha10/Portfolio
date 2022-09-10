@@ -15,7 +15,7 @@ const IntroSection = () => {
     }
 
     useEffect(() => {
-        timer.current = setInterval(updateIntro, 50);
+        timer.current = setInterval(updateIntro, 30);
         return () => {
             clearInterval(timer.current);
         }

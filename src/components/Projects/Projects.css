@@ -1,31 +1,31 @@
-.Projects {
-    padding: 2vw;
-    height: 30vh;
-    width: 60vw;
-    border: 1px solid #000000;
-    display: flex;
-    align-items: center;
-    margin: auto;
-    position: relative;
-}
-
-.Project-card {
-    background-color: red;
-    transition: all 0.5s;
+.Projects-div {
+    padding: 1%;
+    box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 5px 5px;
+    overflow: auto;
+    transition: all 0.6s;
+    display: none;
 }
 
 .Project1 {
     position: absolute;
-    left: 0;
+    left: 0%;
     height: 60%;
     width: 30%;
+    opacity: 0.3;
+    z-index: -1;
+    display: block;
 }
 
+
+
 .Project2 {
+    background-color: white;
     position: absolute;
-    left: 31%;
+    left: 15%;
     height: 80%;
-    width: 38%;
+    width: 70%;
+    z-index: 1;
+    display: block;
 }
 
 .Project3 {
@@ -33,4 +33,33 @@
     left: 70%;
     height: 60%;
     width: 30%;
+    z-index: -2;
+    opacity: 0.3;
+    display: block;
+}
+
+.left-arrow {
+    position: absolute;
+    font-size: xxx-large;
+    left: 0;
+    height: 50%;
+    width: 10%;
+    background-color: white;
+    opacity: 0.5;
+    box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 5px 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+.right-arrow {
+    position: absolute;
+    font-size: xxx-large;
+    right: 0;
+    height: 50%;
+    width: 10%;
+    background-color: white;
+    opacity: 0.5;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 5px 5px;
+    cursor: pointer;
 }

@@ -1,0 +1,36 @@
+.Skills-Card {
+    padding: 1em;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    min-width: 7vw;
+    min-height: 4vh;
+    border-radius: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh 2vw 2vh 2vw;
+    opacity: 0;
+}
+.Skills-Card:hover{
+    background-color: rgb(198, 198, 198) ;
+    box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 5px 5px;
+    margin: 1.9vh 2vw 2vh 1.9vw;
+}
+
+.Skills-Section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: auto;
+}
+
+@keyframes skill-card-animation {
+    100% {
+        opacity: 1;
+    }
+}
+
+.Skill-Card-Animation {
+    animation: skill-card-animation 0.2s forwards;
+
+}
