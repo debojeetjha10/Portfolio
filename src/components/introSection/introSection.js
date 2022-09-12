@@ -26,6 +26,7 @@ const IntroSection = () => {
     }, [intro]);
 
     return (<div className="IntroSection">
+        <p className='font-700'>Passionate about finding simple solutions to complex problems</p>
         <p className='Intro'>{intro}</p>
     </div>);
 }

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Projects from "../Projects/Projects";
+import Projects from "../projects/Projects";
 import SkillsSection from "../skillsSection/skillsSection";
 import './bodySection.css'
 

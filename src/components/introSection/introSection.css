@@ -2,8 +2,12 @@
     margin: 5vh 10vw 0 10vw;
     min-height: 20vh;
     margin-bottom: 3vh;
+    text-align: center;
 }
 
 .Intro {
     font-size: medium;
+}
+.font-700{
+    font-weight: 700;
 }

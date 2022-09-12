@@ -39,27 +39,28 @@
 }
 
 .left-arrow {
+    text-align: left;
     position: absolute;
     font-size: xxx-large;
-    left: 0;
-    height: 50%;
-    width: 10%;
-    background-color: white;
+    position: absolute;
+    left: 0%;
+    height: 60%;
+    width: 30%;
+    background-color: transparent;
     opacity: 0.5;
-    box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 5px 5px;
     border: 0;
     cursor: pointer;
 }
 
 .right-arrow {
+    text-align: right;
     position: absolute;
     font-size: xxx-large;
-    right: 0;
-    height: 50%;
-    width: 10%;
-    background-color: white;
+    left: 70%;
+    height: 60%;
+    width: 30%;
+    background-color: transparent;
     opacity: 0.5;
     border: 0;
-    box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 5px 5px;
     cursor: pointer;
 }
