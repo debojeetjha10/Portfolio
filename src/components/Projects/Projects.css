@@ -42,36 +42,6 @@
     animation: slide-right 0.6s forwards;
 }
 
-.left-arrow {
-    text-align: left;
-    position: absolute;
-    font-size: xxx-large;
-    position: absolute;
-    left: 0%;
-    height: 60%;
-    width: 30%;
-    background-color: transparent;
-    opacity: 0.5;
-    border: 0;
-    cursor: pointer;
-}
-
-.right-arrow {
-    text-align: right;
-    position: absolute;
-    font-size: xxx-large;
-    left: 70%;
-    height: 60%;
-    width: 30%;
-    background-color: transparent;
-    opacity: 0.5;
-    border: 0;
-    cursor: pointer;
-}
-
-
-
-
 @keyframes slide-right {
     from {
         margin-left: -100%;
