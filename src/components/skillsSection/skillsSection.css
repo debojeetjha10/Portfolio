@@ -11,16 +11,19 @@
     margin: 2vh 2vw 2vh 2vw;
     opacity: 0;
 }
-.Skills-Card:hover{
-    background-color: rgb(198, 198, 198) ;
+
+.Skills-Card:hover {
+    background-color: rgb(198, 198, 198);
     box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 5px 5px;
     margin: 1.9vh 2vw 2vh 1.9vw;
 }
 
 .Skills-Section {
+    min-height: 100%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content: center;
     padding: auto;
 }
 
@@ -29,6 +32,7 @@
         opacity: 1;
     }
 }
+
 
 .Skill-Card-Animation {
     animation: skill-card-animation 0.2s forwards;

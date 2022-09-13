@@ -1,0 +1,26 @@
+.left-arrow {
+    text-align: left;
+    position: absolute;
+    position: absolute;
+    left: 0%;
+    font-size: 10vw;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.right-arrow {
+    text-align: right;
+    position: absolute;
+    right: 0;
+    font-size: 10vw;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+@media only screen and (width < height) {
+    .right-arrow {
+        color: red;
+    }
+}

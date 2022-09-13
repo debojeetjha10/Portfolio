@@ -1,9 +1,9 @@
 .Projects-div {
-    padding: 1%;
     box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 5px 5px;
-    overflow: auto;
     transition: all 0.6s;
     display: none;
+    border: 1px solid black;
+    overflow: scroll;
 }
 
 .Project1 {
