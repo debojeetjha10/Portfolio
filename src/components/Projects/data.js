@@ -3,6 +3,7 @@ const MYPROJECTS = [
         heading: "1PROJECT HEADING1",
         description: "Created a comm for Linux & Unix-based systems with the input from the user's voice using Python3 and the ated a command-luthe cProject-linksProjecfrom the user through their speech and do the tasks accordingly.",
         link: "link.cm",
+        technologies: ["C++","Python","React","Node.Js"],
         githubLink: "github.com",
     },
     {

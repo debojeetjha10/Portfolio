@@ -11,7 +11,7 @@ const BodySection = () => {
             <li><div className={"body-section-button " + (sectionIdx === 0 ? "grey-background-transition" : "")} onClick={() => setSectionIdx(sectionIdx => 0)}><p>EXPERIENCES</p></div></li>
             <li><div className={"body-section-button " + (sectionIdx === 1 ? "grey-background-transition" : "")} onClick={() => setSectionIdx(sectionIdx => 1)}><p>PROJECTS</p></div></li>
             <li><div className={"body-section-button " + (sectionIdx === 2 ? "grey-background-transition" : "")} onClick={() => setSectionIdx(sectionIdx => 2)}><p>SKILLS</p></div></li>
-            <li><div className={"body-section-button " + (sectionIdx === 3 ? "grey-background-transition" : "")} onClick={() => setSectionIdx(sectionIdx => 3)}><p>Education</p></div></li>
+            <li><div className={"body-section-button " + (sectionIdx === 3 ? "grey-background-transition" : "")} onClick={() => { setSectionIdx(sectionIdx => 3) }}><p>Education</p></div></li>
         </ul>
         <div className="body-section">
             {(sectionIdx === 0) ? <Experinences /> : null}
