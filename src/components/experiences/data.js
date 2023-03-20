@@ -1,41 +1,46 @@
 const MYEXPERIENCES = [
     {
-        heading: "Experience Heading",
-        description: "some description about my experience this needs to be a little loing as this tends to be long for most of the experience but not too long just a little and thats it",
-        company: "Some random company",
+        heading: "Software Engineering Intern",
+        description: "worked as a summer intern at Microsoft IDC in 2022",
+        company: "Microsoft",
         points: [
-            "This is my <p>point</p> no 1",
-            "vhbwfjhgbwajf bvibbvibv  ih i gh i iuhiu i g iug g   gi ti giu  gi hih  iug hgih g",
-            "giugh i i igi gg  gi gi   gi gig  gi igbfi ig ii ighi gi igh ghf",
-            "This is my point no 1",
-            "vhbwfjhgbwajf bvibbvibv  ih i gh i iuhiu i g iug g   gi ti giu  gi hih  iug hgih g",
-            "giugh i i igi gg  gi gi   gi gig  gi igbfi ig ii ighi gi igh ghf",
-            "This is my point no 1",
-            "vhbwfjhgbwajf bvibbvibv  ih i gh i iuhiu i g iug g   gi ti giu  gi hih  iug hgih g",
-            "giugh i i igi gg  gi gi   gi gig  gi igbfi ig ii ighi gi igh ghf"
+          "Worked in Azure Machine Learning Team IDC.",
+          "Trained Multiclass classification models using multimodal architecture in NLP and CV on AML platform and increased matrices like acc, and f1 scores by 0.5-1%.",
+          "Implemented feature embedding extraction of DNN models in the AML python package for NLP.",
+          "Identified and solved BUG related to Dataset validation in Computer Vision."
         ]
 
     }
     ,
     {
-        heading: "Experience Heading2",
-        description: "some description about my experience this needs to be a little loing as this tends to be long for most of the experience but not too long just a little and thats it",
-        company: "Some random company",
+        heading: "Freelancing",
+        description: "Doing freelancing jobs since 2023",
+        company: "",
         points: [
-            "This is my point no 1",
-            "vhbwfjhgbwajf bvibbvibv  ih i gh i iuhiu i g iug g   gi ti giu  gi hih  iug hgih g",
-            "giugh i i igi gg  gi gi   gi gig  gi igbfi ig ii ighi gi igh ghf"
+            "Worked with multiple clients in developing web and mobile applications.",
+            "Mostly have worked as a full-stack developer and led teams.",
+            "Worked with technologies like React, React-Native, Flutter, Node.js, and more.",
+            "Closely worked with teams in designing and delivering high-quality products"
+         ]
+
+    },
+    {
+        heading: "Full-stack Engineering Intern",
+        description: "worked as a full-stack developer in developing and debugging web,mobile applications and backends",
+        company: "Black Falcon Systems Pvt Ltd",
+        points: [
+         "Worked on improving and adding features and solving bugs on android apps written in React-Native and firebase backend.",
+         "Redesign different parts of a website written in Next.js"
         ]
 
     },
     {
-        heading: "Experience Heading3",
-        description: "some description about my experience this needs to be a little loing as this tends to be long for most of the experience but not too long just a little and thats it",
-        company: "Some random company",
+        heading: "Microsoft Engage Mentee",
+        description: "joined Microsoft under a mentorship program called Engage for second year college students",
+        company: "Microsoft",
         points: [
-            "This is my point no 1",
-            "vhbwfjhgbwajf bvibbvibv  ih i gh i iuhiu i g iug g   gi ti giu  gi hih  iug hgih g",
-            "giugh i i igi gg  gi gi   gi gig  gi igbfi ig ii ighi gi igh ghf"
+        "Worked Under the guidance of the best software developers in the industry, who are working at Microsoft, and Developed an MS Teams Clone web App.",
+        "Used MERN tech stack for the project, WebRtc for video calls, and web sockets for messaging service."
         ]
 
     }
