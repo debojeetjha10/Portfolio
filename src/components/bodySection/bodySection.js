@@ -17,7 +17,7 @@ const BodySection = () => {
             {(sectionIdx === 0) ? <Experinences /> : null}
             {(sectionIdx === 1) ? <Projects /> : null}
             {(sectionIdx === 2) ? <SkillsSection /> : null}
-            {(sectionIdx === 3) ? <p>Not Complete yet 🥹 [FYI: currently I am a final semester Engineering Grad student]</p> : null}
+            {(sectionIdx === 3) ? <p>Not Completed yet 🥹 [FYI: currently I am a final semester Engineering Grad student]</p> : null}
         </div>;
 
     </div>
