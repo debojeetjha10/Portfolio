@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Experinences from "../experiences/experiences";
-import Projects from "../projects/Projects";
+import Projects from "../projects/projects";
 import SkillsSection from "../skillsSection/skillsSection";
 import './bodySection.css'
 

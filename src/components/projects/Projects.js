@@ -1,6 +1,6 @@
 import MYPROJECTS from './data';
 import ProjectCard from '../projectCard/projectCard';
-import './Projects.css'
+import './projects.css'
 import '../../styles/buttons/right-left-arrow.css'
 import { useState } from 'react';
 import React from 'react'
